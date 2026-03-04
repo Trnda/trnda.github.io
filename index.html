@@ -706,7 +706,7 @@ function updateFileName() {
         // Cena se počítá za každé patro zvlášť (každé další je užší, spotřebuje méně surovin)
         for (let t = 0; t < numTiers; t++) {
             let tierDiameter = diameter * Math.pow(0.75, t); 
-            total += (tierDiameter * 20) * 3; // 3 = (6 vrstev / 2) pro zachování tvé původní ceny
+            total += (tierDiameter * 15) * 3; // 3 = (6 vrstev / 2) pro zachování tvé původní ceny
         }
 
         if (style === 'wedding') total += 1500; 
